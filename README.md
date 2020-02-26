@@ -110,5 +110,6 @@ For windows:
  
  The output video in mp4 format is wriiten into "output_snapshots" folder which is created when the App runs. Outputfile video is named "outpy.mp4"
  ![output](./images/output.JPG)
+ 
 
  ![outputsample](./images/outputsample.gif)
