@@ -47,7 +47,7 @@ The application is invoked from command line. It reads the specified input video
 
 A basic workflow of the whole architecture is shown below:
 
-![workflow](./images/Workflow.jpg)
+![Workflow](./images/Workflow.JPG)
 
 
 
