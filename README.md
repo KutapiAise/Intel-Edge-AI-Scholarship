@@ -97,4 +97,4 @@ For windows:
  
  #### 7. Sample output
  
- ![outputdrowsiness](./images/outputdrowsinessbehavior.gif)
+ ![outputsample](./images/outputsample.gif)
