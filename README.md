@@ -108,6 +108,6 @@ For windows:
             replace the CPU, model paths with the corresponding in your linux machine
  #### 7. Sample output
  
- The output video in mp4 format is wriiten into "output_snapshots" folder which is created when the App runs. Outputfile vide is named "outpy.mp4"
+ The output video in mp4 format is wriiten into "output_snapshots" folder which is created when the App runs. Outputfile video is named "outpy.mp4"
  
  ![outputsample](./images/outputsample.gif)
