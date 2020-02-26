@@ -358,7 +358,7 @@ def main():
  
         cv2.putText(frame, INFO.msg, (75, 90), cv2.FONT_HERSHEY_SIMPLEX,0.5, (0,0,255), 2)
         
-        output_text = " Yawn Count: " + str(yawns)
+        output_text = " Yawn frame Count: " + str(yawns)
 
         cv2.putText(frame, output_text, (0,110 ),cv2.FONT_HERSHEY_SIMPLEX, 0.5,(230,0,0),2)
 
