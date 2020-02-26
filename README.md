@@ -85,16 +85,29 @@ Step 1) Activate the openVINO environment using the following command from the c
             
             cd C:\Program Files (x86)\IntelSWTools\openvino\bin\ 
             setupvars.bat       
-step 2)  Enter in to the project download folder from the command line and run the following command
+step 2)  Enter in to the project download folder from the command line and run the following command: you can aso run the app in sync and async mode with optional -f flag.By default the app runs in async mode.
+
+##### Async mode:
 
 For windows:
 
-            python app.py -mf "A:\\IntelOpenVinoWorkspace\\AiPh1ChallengeProj\\models\\face-detection-adas-0001\\FP32\\face-detection-adas-0001.xml" -mp "A:\\IntelOpenVinoWorkspace\\AiPh1ChallengeProj\\models\\head-pose-estimation-adas-0001\\FP32\\head-pose-estimation-adas-0001.xml" -l "C:\\Program Files (x86)\\IntelSWTools\\openvino\\deployment_tools\\inference_engine\\bin\\intel64\\Release\\cpu_extension_avx2.dll" -d CPU -pt 0.7
+            python app.py -mf "A:\\IntelOpenVinoWorkspace\\Intel-Edge-AI-Scholarship\\models\\face-detection-adas-0001\\FP32\\face-detection-adas-0001.xml" -mp "A:\\IntelOpenVinoWorkspace\\Intel-Edge-AI-Scholarship\\models\\head-pose-estimation-adas-0001\\FP32\\head-pose-estimation-adas-0001.xml" -l "C:\\Program Files (x86)\\IntelSWTools\\openvino\\deployment_tools\\inference_engine\\bin\\intel64\\Release\\cpu_extension_avx2.dll" -d CPU -pt 0.7
    
  For Linux, the model 
  
             replace the CPU, model paths with the corresponding in your linux machine
  
+ ##### sync mode:
+ 
+ For windows:
+
+            python app.py -mf "A:\\IntelOpenVinoWorkspace\\Intel-Edge-AI-Scholarship\\models\\face-detection-adas-0001\\FP32\\face-detection-adas-0001.xml" -mp "A:\\IntelOpenVinoWorkspace\\Intel-Edge-AI-Scholarship\\models\\head-pose-estimation-adas-0001\\FP32\\head-pose-estimation-adas-0001.xml" -l "C:\\Program Files (x86)\\IntelSWTools\\openvino\\deployment_tools\\inference_engine\\bin\\intel64\\Release\\cpu_extension_avx2.dll" -d CPU -pt 0.7 -f sync
+   
+ For Linux, the model 
+ 
+            replace the CPU, model paths with the corresponding in your linux machine
  #### 7. Sample output
  
- ![outputdrowsiness](./images/outputdrowsinessbehavior.gif)
+ The output video in mp4 format is wriiten into "output_snapshots" folder which is created when the App runs. Outputfile video is named "outpy.mp4"
+ 
+ ![outputsample](./images/outputsample.gif)
