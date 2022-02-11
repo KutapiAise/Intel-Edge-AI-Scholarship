@@ -22,7 +22,7 @@ onnx==1.6.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
 playsound==1.2.2
-protobuf==3.6.1
+protobuf==3.15.0
 PyYAML==5.3
 requests==2.18.4
 scipy==1.4.1
